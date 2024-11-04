@@ -1,0 +1,122 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --color-primary: #0B17C0;
+    --color-preta: #131219;
+    --color-branca: #D9D9D9;
+    --color-verde: #6D8509;
+    --color-cinza: #9F9494;
+    --color-vermelha: #C50909;
+}
+
+html, body {
+    background-image: url("https://www.oficinadanet.com.br/imagens/post/32713/capa-os-melhores-fones-de-ouvido-baratos-para-corrida-e-academia-de-2020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-vermelha);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.posição-botoes{
+    color: var(--color-branca);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.cor-logo{
+    color: var(--color-verde);
+}
+
+.botoes {
+    color: var(--cor-branca);
+    height: 34px;
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes-lateral {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cadastrar {}
+
+.botoes-lateral button{
+    display: flex;
+    align-items: center;
+}
+
+.facebook, .google {
+    width: 30px;
+    height: 30px;  
+    margin-right: 5px;
+}
+
+.controle-nome,
+.controle-sobrenome,
+.controle-cpf,
+.controle-nascimento,
+.controle-email {
+    color: var(--color-cinza);
+}
+
+.texto {
+    color: var(--color-branca);
+    align-items: center;
+}
+
+.texto2 {
+    text-align: center;
+    color: var(--color-vermelha);
+}
+
+.alinhamento-textos {
+    text-align: center;
+}
+
+.logo-esquerdo {
+    color: var(--color-verde);
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 90px;
+    margin-bottom: 60px;
+}
